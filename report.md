@@ -22,7 +22,7 @@ At the very beginning, I made some helpers variables, such as ysize, xsize and v
 
 First, I converted input image to greyscales. Then, I called gaussian blur with kernel size = 9. Third step was to ran Canny alghoritm to detectd edges, with thresholds between 200 and 300.
 
-Next, lines were preparations for Hough alghoritm. I defined all needed parameters and provide them to Hough alghoritm with image already reduced to my regions of interests. This region was a trianagle (its vertices were defined at the beginning, based on image dimension).
+Next lines of code are preparations for Hough alghoritm. I defined all needed parameters and provide them to Hough alghoritm with image already reduced to my region of interests. This region was a trianagle (its vertices were defined at the beginning, based on image dimension).
 
 On the output I get numpy array with detected lines, which I tried to extrapolated (**Step 5.**) I made a new helper function called:
 
