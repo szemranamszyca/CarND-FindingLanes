@@ -30,8 +30,8 @@ On the output I get numpy array with detected lines, which I tried to extrapolat
 
 Lines provided to this functions should be already grouped by descending or ascending slope. To made it, lines could be segrate by *get_lines_by_slope* function. Output is dictionary with two indexes:
 
-+inc for ascending lines
-+dec for descending lines
+* inc for ascending lines
+* dec for descending lines
 
 *get_avg_line* calculated average of x, y and based on that I could calulcate m-parameter for linear function:
 
